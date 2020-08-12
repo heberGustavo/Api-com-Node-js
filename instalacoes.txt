@@ -1,0 +1,6 @@
+1. npm init (Gera arquivo package.json)
+2. npm install --save express (inclui o express)
+3. npm install
+4. criar arquivo '.gitignore' (os arquivo não sobe para o git)
+5. cria arquivo 'server.js' (arquivo principal do server)
+5. cria arquivo 'app.js' ()
