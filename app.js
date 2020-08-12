@@ -1,13 +1,11 @@
 const express = require('express');
 const app = express();
 
-//Req = Requisição
-//Res = Resposta
-//Next = Chama outro metodo
-app.use((req, res, next) => {
-    res.status(200).send({
-        mensagem: 'Ok, deu certo'
-    });
-});
+//Rotas
+const rotasProdutos = require('./routes/produtos');
+const rotasPedidos = require('./routes/pedidos');
+
+app.use('/produtos', rotasProdutos);
+app.use('/pedidos', rotasPedidos);
 
 module.exports = app;
