@@ -4,3 +4,17 @@
 4. criar arquivo '.gitignore' (os arquivo não sobe para o git)
 5. cria arquivo 'server.js' (arquivo principal do server)
 5. cria arquivo 'app.js' ()
+.
+6. npm install --save-dev nodemon (hot reload)
+7. npm install -g nodemon (Instalar nodemon)
+8. npm install --save morgan
+.
+9. npm install --save body-parser
+.
+10. npm install --save mysql
+11. criar arquivo 'mysql.js'
+12. cria arquivo nodemon.json
+.
+13. npm install --save multer (biblioteca para poder tratar o FormData)
+14. npm install --save bcrypt (usa para criptografar a senha)
+15. npm install jsonwebtoken --save (Web Token, pra retornar Token ao Usuario)
